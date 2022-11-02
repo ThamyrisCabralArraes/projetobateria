@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(1, 41, 75);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#titulo {
+  text-align: center;
+  color: aliceblue;
+  font-size: 120px;
+  
+}
+.set {
+  margin: 10% auto;
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+button {
+  outline: none;
+  font-size: 5rem;
+  padding: 20px;
+  margin: 10px;
+  border: solid rgb(4, 75, 138) 10px;
+}
