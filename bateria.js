@@ -1,6 +1,9 @@
 for (let i = 0; i < document.querySelectorAll('.bateria').length; i++) {
-  document.querySelector('.bateria')[1].addEventListener('click', function () {
-    varbuttonInnerHTML = this.innerHTML
+  
+  document.querySelectorAll('.bateria')[1].addEventListener('click', function() {
+
+    let buttonInnerHTML = this.innerHTML
+
     switch (buttonInnerHTML) {
     case 'w':
       let crash = new Audio('sounds/crash.mp3');
@@ -19,7 +22,7 @@ for (let i = 0; i < document.querySelectorAll('.bateria').length; i++) {
 
     case 'd':
       let tom1 = new Audio('sounds/tom-1.mp3');
-        autom1dio.play();
+        tom1.play();
           break;
 
     case 'j':
@@ -37,7 +40,7 @@ for (let i = 0; i < document.querySelectorAll('.bateria').length; i++) {
         tom4.play();
           break;
           
-          default:
+          default: console.log(buttonInnerHTML)
         }
   }) 
 }

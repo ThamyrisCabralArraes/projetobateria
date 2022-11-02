@@ -29,27 +29,6 @@ img {
 height: 150px;
 width: 150px;
 }
-img:hover {
-  color:aliceblue
+button.bateria p {
+  display: inline-block;
 }
-/* .w {
-
-}
-.a {
-
-}
-.s {
-
-}
-.d {
-
-}
-.j {
-
-}
-.k {
-
-}
-.l {
-
-} */
