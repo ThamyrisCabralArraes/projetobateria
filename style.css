@@ -10,7 +10,6 @@ body {
 }
 .set {
   margin: 10% auto;
-  padding: 10px;
   text-align: center;
 }
 footer {
@@ -21,5 +20,36 @@ button {
   font-size: 5rem;
   padding: 20px;
   margin: 10px;
+  height: 200px;
+  width: 200px;
   border: solid rgb(4, 75, 138) 10px;
 }
+
+img {
+height: 150px;
+width: 150px;
+}
+img:hover {
+  color:aliceblue
+}
+/* .w {
+
+}
+.a {
+
+}
+.s {
+
+}
+.d {
+
+}
+.j {
+
+}
+.k {
+
+}
+.l {
+
+} */
